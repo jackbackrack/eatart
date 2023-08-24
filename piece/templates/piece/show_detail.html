@@ -38,6 +38,9 @@
             {% if piece.pricing %}
             {{ piece.pricing }}
             {% endif %}
+            {% if piece.is_sold %}
+            <strong>sold</strong>
+            {% endif %}
           </p>
         </div>
       </a>
